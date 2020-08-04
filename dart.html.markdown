@@ -6,7 +6,7 @@ contributors:
   - ["Vince Ramces Oliveros", "https://github.com/ram231"]
 ---
 
-**Dart** is a single threaded, general puprose programming languages.
+**Dart** is a single threaded, general purpose programming language.
 It borrows a lot from other mainstream languages.
 It supports Streams, Futures(known as Promises in JavaScript), Generics, First-class functions(closures) and static type checking.
 Dart can run in any platform such as Web, CLI, Desktop, Mobile and IoT devices.
@@ -198,7 +198,7 @@ class GenericExample<T>{
 /// or outside of class have to be constant. Strings and numbers are constant
 /// by default. But arrays and maps are not. They can be made constant by
 /// declaring them "const". Kind of similar to Javascript's Object.freeze()
-const example8List = ["Example8 const array"],
+const example8List = ["Example8 const array"];
 const  example8Map = {"someKey": "Example8 const map"};
 /// Declare List or Maps as Objects.
  List<String> explicitList = new List<String>();
@@ -206,7 +206,6 @@ const  example8Map = {"someKey": "Example8 const map"};
 
  explicitList.add("SomeArray");
 example8() {
-  print(example8Array[0]);
   print(example8Map["someKey"]);
   print(explicitList[0]);
 }
@@ -224,7 +223,7 @@ var newExplicitLists = explicitList.toList() // Converts Iterable<E> to List<E>
 /// supported features, starting with forEach,map and where.
 var example9Array = const ["a", "b"];
 example9() {
-  for (final i = 0; i < example9Array.length; i++) {
+  for (int i = 0; i < example9Array.length; i++) {
     print("Example9 for loop '${example9Array[i]}'");
   }
   var i = 0;
@@ -694,7 +693,6 @@ example33() {
 /// Dart has also added feature such as Null aware operators
 var isBool = true;
 var hasString = isBool ?? "default String";
-var hasValue ??= "default Value";
 
 /// Programs have only one entry point in the main function.
 /// Nothing is expected to be executed on the outer scope before a program
