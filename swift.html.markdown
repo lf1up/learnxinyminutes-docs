@@ -12,7 +12,7 @@ contributors:
 filename: learnswift.swift
 ---
 
-Swift is a programming language for iOS and OS X development created by Apple. Designed to coexist with Objective-C and to be more resilient against erroneous code, Swift was introduced in 2014 at Apple's developer conference WWDC. It is built with the LLVM compiler included in Xcode 6+.
+Swift is a programming language for iOS and macOS development created by Apple. Designed to coexist with Objective-C and to be more resilient against erroneous code, Swift was introduced in 2014 at Apple's developer conference WWDC. It is built with the LLVM compiler included in Xcode 6+.
 
 The official _[Swift Programming Language](https://itunes.apple.com/us/book/swift-programming-language/id881256329)_ book from Apple is now available via iBooks. It goes into much more detail than this guide, and if you have the time and patience to read it, it's recommended. Some of these examples are from that book.
 
@@ -821,6 +821,17 @@ for _ in 0..<10 {
 
  See more here: https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html
  */
+
+// MARK: Preventing Overrides
+
+// You can add keyword `final` before a class or instance method, or a property to prevent it from being overridden
+class Shape {
+    final var finalInteger = 10
+}
+
+// Prevent a class from being subclassed
+final class ViewManager {
+}
 
 // MARK: Conditional Compilation, Compile-Time Diagnostics, & Availability Conditions
 

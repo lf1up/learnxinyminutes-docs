@@ -33,7 +33,7 @@ and many more features.
 0x1F # integer
 3.0  # float
 
-# Atoms, that are literals, a constant with name. They start with `:`.
+# Atoms are constants whose values are their own name. They start with `:`.
 :hello # atom
 
 # Tuples that are stored contiguously in memory.
@@ -439,7 +439,7 @@ self() #=> #PID<0.27.0>
 
 # Create an agent with `Agent.start_link`, passing in a function
 # The initial state of the agent will be whatever that function returns
-{ok, my_agent} = Agent.start_link(fn -> ["red", "green"] end)
+{:ok, my_agent} = Agent.start_link(fn -> ["red", "green"] end)
 
 # `Agent.get` takes an agent name and a `fn` that gets passed the current state
 # Whatever that `fn` returns is what you'll get back
