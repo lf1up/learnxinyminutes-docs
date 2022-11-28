@@ -11,7 +11,7 @@ contributors:
 " ##############
 "
 " Vim script (also called VimL) is the subset of Vim's ex-commands which
-" supplies a number of features one one would expect from a scripting language,
+" supplies a number of features one would expect from a scripting language,
 " such as values, variables, functions or loops. Always keep in the back of
 " your mind that a Vim script file is just a sequence of ex-commands. It is
 " very common for a script to mix programming-language features and raw
@@ -42,7 +42,7 @@ pwd                   " Displays the current working directory
 " comment (echo assumes that the quotation mark begins a string)
 echo 'Hello world!'  | " Displays a message
 
-" Line breaks can be escaped by pacing a backslash as the first non-whitespace
+" Line breaks can be escaped by placing a backslash as the first non-whitespace
 " character on the *following* line. Only works in script files, not on the
 " command line
 echo " Hello
