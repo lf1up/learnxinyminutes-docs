@@ -39,14 +39,14 @@ Go comes with a good standard library and a sizeable community.
 // +build prod, dev, test
 
 // A package clause starts every source file.
-// Main is a special name declaring an executable rather than a library.
+// main is a special name declaring an executable rather than a library.
 package main
 
 // Import declaration declares library packages referenced in this file.
 import (
 	"fmt"       // A package in the Go standard library.
 	"io/ioutil" // Implements some I/O utility functions.
-	"math"    // Math library with local alias m.
+	m "math"    // Math library with local alias m.
 	"net/http"  // Yes, a web server!
 	"os"        // OS functions like working with the file system
 	"strconv"   // String conversions.
