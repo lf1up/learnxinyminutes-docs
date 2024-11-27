@@ -1,5 +1,5 @@
 ---
-language: java
+language: Java
 contributors:
     - ["Jake Prather", "http://github.com/JakeHP"]
 translators:
@@ -395,7 +395,6 @@ class PennyFarthing extends Bicicleta {
     }
 
 }
-
 ```
 
 ## Más Lectura

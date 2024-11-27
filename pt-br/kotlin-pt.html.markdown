@@ -1,5 +1,5 @@
 ---
-language: kotlin
+language: Kotlin
 filename: LearnKotlin-pt.kt
 contributors:
     - ["S Webber", "https://github.com/s-webber"]
@@ -374,7 +374,6 @@ fun usaObjeto() {
     ExemploObjeto.ola()
     val algumaReferencia: Any = ExemploObjeto // usa-se o nome diretamente
 }
-
 ```
 
 ### Leitura Adicional

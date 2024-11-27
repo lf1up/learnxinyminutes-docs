@@ -1,11 +1,11 @@
 ---
-language: bf
+language: BF
 contributors:
     - ["Prajit Ramachandran", "http://prajitr.github.io/"]
     - ["Mathias Bynens", "http://mathiasbynens.be/"]
 translators:
     - ["Petru Dimitriu", "http://petru-dimitriu.github.io"]
-filename: bf-ro.html
+filename: bf-ro.bf
 lang: ro-ro
 ---
 
@@ -81,7 +81,6 @@ problema: La sfarsitul ciclului imbricat, celula #2 este zero. In
 acest caz, celula ciclul imbricat nu va mai functiona data viitoare.
 Pentru a rezolva aceasta problema, incrementam celula si #4, si
 recopiem celula #4 in celula #2. In final, celula #3 este rezultatul.
-
 ```
 
 Așadar acesta este limbajul brainfuck. Nu e atât de greu, nu? Pentru

@@ -1,6 +1,6 @@
 ---
 category: tool
-tool: git
+tool: Git
 contributors:
     - ["Jake Prather", "http://github.com/JakeHP"]
     - ["Vinh Nguyen", "https://twitter.com/vinhnx"]
@@ -26,7 +26,7 @@ Version Control là một hệ thống ghi lại những thay đổi ở một t
 * Quản lý phiên bản phân tán (Distributed Versioning) tập trung vào việc chia sẻ các thay đổi. Mỗi sự thay đổi có một mã định dạng (id) duy nhất.
 * Các hệ phân tán không có cấu trúc định sẵn. Bạn có thể thay đổi một kiểu SVN, hệ phân tán, với git.
 
-[Thông tin thêm](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
+[Thông tin thêm](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
 ### Tại Sao Dùng Git?
 
@@ -50,7 +50,7 @@ Một git repository bao gồm thư mục .git & tree đang làm việc.
 ### Thư mục .git (thành phần của một repository)
 
 Thư mục .git chứa tất cả các cấu hình, log, nhánh, HEAD, và hơn nữa.
-[Danh Sách Chi Tiết.](http://gitready.com/advanced/2009/03/23/whats-inside-your-git-directory.html)
+[Danh Sách Chi Tiết.](https://gitready.com/advanced/2009/03/23/whats-inside-your-git-directory.html)
 
 ### Tree Đang Làm (thành phần của một repository)
 
@@ -78,12 +78,6 @@ con trỏ này sẽ cập nhật tự động và trỏ đến commit mới nh�
 
 HEAD là một con trỏ đến branch hiện tại. Một repo chỉ có một HEAD *đang hoạt động*.
 head là một con trỏ đến bất kỳ commit nào. Một repo có thể có nhiều head.
-
-### Các Tài Nguyên Mang Tính Khái Niệm
-
-* [Git For Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/)
-* [Git For Designers](http://hoth.entp.com/output/git_for_designers.html)
-
 
 ## Các Lệnh
 
@@ -113,7 +107,7 @@ $ git config --global user.email "MyEmail@Zoho.com"
 $ git config --global user.name "My Name"
 ```
 
-[Tìm hiểu thêm về git config.](http://git-scm.com/docs/git-config)
+[Tìm hiểu thêm về git config.](https://git-scm.com/docs/git-config)
 
 ### help
 
@@ -258,7 +252,7 @@ $ git grep -e 'arrayListName' --and \( -e add -e remove \)
 ```
 
 Google để xem thêm các ví dụ
-[Git Grep Ninja](http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja)
+[Git Grep Ninja](https://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja)
 
 ### log
 
@@ -347,7 +341,7 @@ Lấy tất cả các thay đổi mà đã được commit trên một nhánh, v
 $ git rebase master experimentBranch
 ```
 
-[Đọc Thêm.](http://git-scm.com/book/en/Git-Branching-Rebasing)
+[Đọc Thêm.](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 ### reset (thận trọng)
 
@@ -386,16 +380,12 @@ $ git rm /pather/to/the/file/HelloWorld.c
 
 ## Thông tin thêm
 
-* [tryGit - A fun interactive way to learn Git.](http://try.github.io/levels/1/challenges/1)
+* [git-scm - Video Tutorials](https://git-scm.com/videos)
 
-* [git-scm - Video Tutorials](http://git-scm.com/videos)
-
-* [git-scm - Documentation](http://git-scm.com/docs)
+* [git-scm - Documentation](https://git-scm.com/docs)
 
 * [Atlassian Git - Tutorials & Workflows](https://www.atlassian.com/git/)
 
-* [SalesForce Cheat Sheet](https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf)
+* [Git - the simple guide](https://rogerdudler.github.io/git-guide/index.html)
 
-* [Git - the simple guide](http://rogerdudler.github.io/git-guide/index.html)
-
-
+* [Git For Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/)

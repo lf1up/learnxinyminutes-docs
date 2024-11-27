@@ -1,5 +1,5 @@
 ---
-language: crystal
+language: Crystal
 filename: learncrystal-ru.cr
 contributors:
     - ["Vitalii Elenhaupt", "http://veelenga.com"]
@@ -570,7 +570,6 @@ rescue ex4 # без указания конкретного типа исклю�
 end
 
 ex #=> "ex2"
-
 ```
 
 ## Дополнительная информация

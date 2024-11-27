@@ -1,5 +1,5 @@
 ---
-language: edn
+language: EDN
 filename: learnedn.edn
 contributors:
   - ["Jason Yeo", "https://github.com/jsyeo"]
@@ -105,7 +105,6 @@ github/fork   ; you can't eat with this
     {:readers {'MyYelpClone/MenuItem map->MenuItem}}
     "#MyYelpClone/MenuItem {:name \"eggs-benedict\" :rating 10}")
 ; -> #user.MenuItem{:name "eggs-benedict", :rating 10}
-
 ```
 
 # References

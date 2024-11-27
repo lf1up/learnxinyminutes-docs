@@ -1,5 +1,5 @@
 ---
-language: markdown
+language: Markdown
 filename: markdown-es.md
 contributors:
     - ["Dan Turkel", "http://danturkel.com/"]
@@ -12,7 +12,6 @@ Markdown fue creado por John Gruber en 2004. Su propósito es ser una sintaxis f
 fácilmente a HTML (y, actualmente, otros formatos también).
 
 ¡Denme toda la retroalimentación que quieran! / ¡Sientanse en la libertad de hacer forks o pull requests!
-
 
 ```md
 <!-- Markdown está basado en HTML, así que cualquier archivo HTML es Markdown

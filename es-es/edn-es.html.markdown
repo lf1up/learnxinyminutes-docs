@@ -1,5 +1,5 @@
 ---
-language: edn
+language: EDN
 filename: learnedn-es.edn
 contributors:
   - ["Jason Yeo", "https://github.com/jsyeo"]
@@ -101,7 +101,6 @@ false
 (edn/read-string {:lectores {'MyYelpClone/MenuItem map->menu-item}}
                  "#MyYelpClone/MenuItem {:nombre \"huevos-benedict\" :clasificacion 10}")
 ; -> #user.MenuItem{:nombre "huevos-benedict", :clasificacion 10}
-
 ```
 
 # Referencias

@@ -1,5 +1,5 @@
 ---
-language: erlang
+language: Erlang
 contributors:
     - ["Giovanni Cappellotto", "http://giovanni.curlybrackets.it/"]
 filename: learnerlang.erl
@@ -335,7 +335,6 @@ fib:test()
 % ```
 % rebar eunit
 % ```
-
 ```
 
 ## References

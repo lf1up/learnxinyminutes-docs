@@ -1,5 +1,5 @@
 ---
-language: haml
+language: Haml
 filename: learnhaml.haml
 contributors:
   - ["Simon Neveu", "https://github.com/sneveu"]
@@ -213,7 +213,6 @@ $ haml input_file.haml output_file.html
 /
   There are many types of filters (:markdown, :javascript, :coffee, :css, :ruby and so on)
   Also you can define your own filters using Haml::Filters
-
 ```
 
 ## Additional resources

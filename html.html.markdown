@@ -1,5 +1,5 @@
 ---
-language: html
+language: HTML
 filename: learnhtml.txt
 contributors:
     - ["Christophe THOMAS", "https://github.com/WinChris"]
@@ -161,7 +161,6 @@ useful tips.
 		<td>second row, second column</td>
 	</tr>
 </table>
-
 ```
 
 ## Usage

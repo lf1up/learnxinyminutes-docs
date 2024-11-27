@@ -1,5 +1,5 @@
 ---
-language: kotlin
+language: Kotlin
 contributors:
     - ["S Webber", "https://github.com/s-webber"]
 translators: 
@@ -366,7 +366,6 @@ fun useObject() {
     ObjectExample.hello()
     val someRef: Any = ObjectExample // 객체의 이름을 그대로 사용합니다.
 }
-
 ```
 
 ### 더 알아보기

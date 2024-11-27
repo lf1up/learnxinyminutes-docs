@@ -1,5 +1,5 @@
 ---
-language: reason
+language: Reason
 filename: reason.re
 contributors:
   - ["Seth Corker", "https://sethcorker.com"]
@@ -7,7 +7,7 @@ contributors:
 
 Reason is a syntax over OCaml that is easier to get started for programmers who are familiar with C-style syntax like JavaScript. BuckleScript is part of the toolchain which compiles Reason to JavaScript so you can write statically typed code for anywhere that JavaScript runs.
 
-```javascript
+```reason
 /* Comments start with slash-star, and end with star-slash */
 
 /*----------------------------------------------

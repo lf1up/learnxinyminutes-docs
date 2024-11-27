@@ -1,5 +1,5 @@
 ---
-language: restructured text (RST)
+language: reStructuredText (RST)
 filename: restructuredtext-it.rst
 contributors:
     - ["DamienVGN", "https://github.com/martin-damien"]
@@ -31,12 +31,11 @@ Oppure, se hai `pip` installato sul tuo sistema:
 $ pip install docutils
 ```
 
-
 ## Sintassi del file
 
 Ecco un semplice esempio della sintassi RST:
 
-```
+```rst
 .. Le righe che iniziano con due punti sono comandi speciali. Ma se non è possibile trovare alcun comando, la riga viene considerata come un commento
 
 ===============================================================================
@@ -81,12 +80,11 @@ Anche le tabelle più complesse possono essere inserite facilmente (colonne e/o 
 
 Esistono diversi modi per creare collegamenti:
 
-- Aggiungendo un underscore dopo una parola: Github_ e aggiungendo l'URL di destinazione dopo il testo (questo metodo ha il vantaggio di non inserire URL non necessari all'interno del testo leggibile).
+- Aggiungendo un underscore dopo una parola: GitHub_ e aggiungendo l'URL di destinazione dopo il testo (questo metodo ha il vantaggio di non inserire URL non necessari all'interno del testo leggibile).
 - Digitando un URL completo: https://github.com/ (verrà automaticamente convertito in un collegamento)
-- Utilizzando una sintassi simile a Markdown: `Github <https://github.com/>`_ .
+- Utilizzando una sintassi simile a Markdown: `GitHub <https://github.com/>`_ .
 
-.. _Github https://github.com/
-
+.. _GitHub https://github.com/
 ```
 
 ## Come usarlo
@@ -104,7 +102,6 @@ Ma ci sono applicazioni più complesse che utilizzano il formato RST:
 - [Pelican](http://blog.getpelican.com/), un generatore di siti statici
 - [Sphinx](http://sphinx-doc.org/), un generatore di documentazione
 - e molti altri
-
 
 ## Letture
 

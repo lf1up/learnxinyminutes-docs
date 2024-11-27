@@ -1,5 +1,5 @@
 ---
-language: json
+language: JSON
 filename: learnjson-ua.json
 contributors:
   - ["Anna Harren", "https://github.com/iirelu"]
@@ -68,6 +68,4 @@ JSON в чистій формі не містить коментарів, але
 Одиничний масив значень теж є правильним JSON
 
 [1, 2, 3, "text", true]
-
-
 ```

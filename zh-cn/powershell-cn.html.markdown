@@ -1,6 +1,5 @@
 ---
-category: tool
-tool: powershell
+language: PowerShell
 contributors:
     - ["Wouter Van Schandevijl", "https://github.com/laoujin"]
 translators:

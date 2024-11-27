@@ -1,6 +1,6 @@
 ---
-language: html
-filename: learnhtml-vi.html
+language: HTML
+filename: learnhtml-vi.txt
 contributors:
     - ["Christophe THOMAS", "https://github.com/WinChris"]
 translators:
@@ -109,7 +109,6 @@ Bài viết này chủ yếu bàn về cú pháp của HTML và một vài mẹo
 		<td>hàng hai, cột hai</td>
 	</tr>
 </table>
-
 ```
 
 ## Cách sử dụng

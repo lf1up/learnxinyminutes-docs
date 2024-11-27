@@ -1,5 +1,5 @@
 ---
-language: html
+language: HTML
 filename: learnhtml-it.txt
 contributors:
     - ["Christophe THOMAS", "https://github.com/WinChris"]
@@ -107,7 +107,6 @@ Questo articolo riguarda principalmente la sintassi HTML ed alcuni suggerimenti 
 		<td>seconda riga, seconda colonna</td>
 	</tr>
 </table>
-
 ```
 
 ## Uso

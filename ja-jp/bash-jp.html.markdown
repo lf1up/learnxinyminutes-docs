@@ -1,6 +1,5 @@
 ---
-category: tool
-tool: bash
+language: Bash
 contributors:
     - ["Max Yankov", "https://github.com/golergka"]
     - ["Darren Lin", "https://github.com/CogBear"]
@@ -168,5 +167,4 @@ sort file.txt
 uniq -d file.txt
 # 1行ごとに、','が最初に出てくる前の部分を表示します
 cut -d ',' -f 1 file.txt
-
 ```

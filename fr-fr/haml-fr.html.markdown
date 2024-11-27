@@ -1,5 +1,5 @@
 ---
-language: haml
+language: Haml
 filename: learnhaml-fr.haml
 contributors:
   - ["Simon Neveu", "https://github.com/sneveu"]
@@ -148,7 +148,6 @@ $ haml fichier_entree.haml fichier_sortie.html
 
 :javascript
   console.log('Ceci est la balise en-ligne <script>');
-
 ```
 
 ## Lectures complémentaires

@@ -1,5 +1,5 @@
 ---
-language: openscad
+language: OpenSCAD
 filename: learnopenscad.scad
 contributors:
     - ["Tom Preston", "https://github.com/tompreston/"]
@@ -7,7 +7,7 @@ contributors:
 
 Draw 3D models with code using [OpenSCAD](https://openscad.org/).
 
-```
+```openscad
 // Comments look like this
 
 // 3D Primitives
@@ -112,6 +112,7 @@ use <filename>     // Import modules and functions, but do not execute any comma
 ```
 
 ## Further Reading
-* Official docs https://openscad.org/documentation.html
-* Cheat sheet https://openscad.org/cheatsheet/index.html
-* Vim bindings https://github.com/sirtaj/vim-openscad
+
+* Official docs [openscad.org/documentation.html](https://openscad.org/documentation.html)
+* Cheat sheet [openscad.org/cheatsheet/index.html](https://openscad.org/cheatsheet/index.html)
+* Vim bindings [github.com/sirtaj/vim-openscad](https://github.com/sirtaj/vim-openscad)

@@ -5,7 +5,7 @@ contributors:
 translators:
     - ["Petru Dimitriu", "http://petru-dimitriu.github.io"]
 lang: ro-ro
-filename: haskell-ro.html
+filename: haskell-ro.hs
 ---
 
 Haskell este un limbaj de programare practic, pur funcțional.
@@ -434,8 +434,8 @@ infixl 6 +
 What is your name?
 Friend!
 Hello, Friend!
-
 ```
+
 Mai sunt multe de spus despre Haskell, printre care typclasses și monade.
 Acestea sunt marile idei care fac programarea în Haskell atât de interesantă.
 Vă las un exemplu final în Haskell: o variantă de implementare a sortării rapide

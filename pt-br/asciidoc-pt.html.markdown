@@ -1,11 +1,11 @@
 ---
-language: asciidoc
+language: AsciiDoc
 contributors:
     - ["Ryan Mavilia", "http://unoriginality.rocks/"]
 translators:
     - ["David Lima", "https://github.com/davelima"]
 lang: pt-br
-filename: asciidoc-pt.md
+filename: asciidoc-pt.adoc
 ---
 
 AsciiDoc é uma linguagem de marcação similar ao Markdown e pode ser
@@ -86,7 +86,6 @@ Título de seções
 ==== Nível 3 <h4>
 
 ===== Nível 4 <h5>
-
 ```
 
 Listas

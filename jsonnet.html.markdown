@@ -1,5 +1,5 @@
 ---
-language: jsonnet
+language: Jsonnet
 filename: learnjsonnet.jsonnet
 contributors:
   - ["Huan Wang", "https://github.com/fredwangwang"]
@@ -127,7 +127,6 @@ assert obj5 == {};
 # a jsonnet document has to evaluate to something
 # be it an object, list, number or just string literal
 "FIN"
-
 ```
 
 ## Further Reading

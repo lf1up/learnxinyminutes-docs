@@ -1,6 +1,6 @@
 ---
 category: tool
-tool: awk
+tool: AWK
 filename: learnawk-pt.awk
 contributors:
     - ["Marshall Mason", "http://github.com/marshallmason"]
@@ -368,7 +368,6 @@ END {
     if (nlines)
         print "A média da idade para " name " é " sum / nlines
 }
-
 ```
 
 Leituras adicionais (em inglês):

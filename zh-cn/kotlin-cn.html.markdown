@@ -1,5 +1,5 @@
 ---
-language: kotlin
+language: Kotlin
 contributors:
     - ["S Webber", "https://github.com/s-webber"]
 translators:
@@ -335,7 +335,6 @@ object ObjectExample {
         return "hello"
     }
 }
-
 ```
 
 ### 进一步阅读

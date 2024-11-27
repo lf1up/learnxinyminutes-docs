@@ -1,5 +1,5 @@
 ---
-language: yaml
+language: YAML
 contributors:
   - ["Leigh Brenecki", "https://github.com/adambrenecki"]
   - [Suhas SG, 'https://github.com/jargnar']
@@ -179,6 +179,7 @@ conjunto2:
 
 ...  # fim do documento
 ```
+
 ### Mais Recursos
 
 + [Site Oficial do YAML](https://yaml.org/)

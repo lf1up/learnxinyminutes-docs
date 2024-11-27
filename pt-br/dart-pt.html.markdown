@@ -1,5 +1,5 @@
 ---
-language: dart
+language: Dart
 filename: learndart-pt.dart
 contributors:
     - ["Joao Pedrosa", "https://github.com/jpedrosa/"]
@@ -495,7 +495,6 @@ main() {
     example27, example28, example29, example30
     ].forEach((ef) => ef());
 }
-
 ```
 
 ## Continue lendo

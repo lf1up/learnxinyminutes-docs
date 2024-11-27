@@ -1,5 +1,5 @@
 ---
-language: coldfusion
+language: ColdFusion
 filename: learncoldfusion.cfm
 contributors:
     - ["Wayne Boka", "http://wboka.github.io"]
@@ -233,6 +233,7 @@ ColdFusion started as a tag-based language. Almost all functionality is availabl
 
 <em>Code for reference (Functions must return something to support IE)</em>
 ```
+
 ```cfs
 <cfcomponent>
 	<cfset this.hello = "Hello" />

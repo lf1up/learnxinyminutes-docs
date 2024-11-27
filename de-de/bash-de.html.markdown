@@ -1,6 +1,5 @@
 ---
-category: tool
-tool: bash
+language: Bash
 lang: de-de
 contributors:
     - ["Max Yankov", "https://github.com/golergka"]
@@ -160,7 +159,7 @@ echo "#helloworld" | tee output.out >/dev/null
 # (mit '-i' für "interactive" erfolgt für jede Datei eine Rückfrage)
 rm -v output.out error.err output-and-error.log
 
-# Die Ausgabe von Befehlen kann mit Hilfe von $( ) in anderen Befehlen verwendet weden:
+# Die Ausgabe von Befehlen kann mithilfe von $( ) in anderen Befehlen verwendet werden:
 # Der folgende Befehl zeigt die Anzahl aller Dateien und Unterverzeichnisse
 # im aktuellen Verzeichnis an.
 echo "Dieser Ordner beinhaltet $(ls | wc -l) Dateien und Verzeichnisse."

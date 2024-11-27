@@ -1,5 +1,5 @@
 ---
-language: forth
+language: Forth
 contributors:
     - ["Horse M.D.", "http://github.com/HorseMD/"]
 filename: learnforth.fs
@@ -216,7 +216,6 @@ page
 
 \ Exiting Gforth:
 \ bye
-
 ```
 
 ##Ready For More?

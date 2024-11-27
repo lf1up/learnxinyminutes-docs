@@ -1,6 +1,6 @@
 ---
-language: html
-filename: learnhtml-cn.html
+language: HTML
+filename: learnhtml-cn.txt
 contributors:
     - ["Christophe THOMAS", "https://github.com/WinChris"]
 translators:
@@ -107,7 +107,6 @@ HTML是超文本标记语言的缩写。
 		<td>第二行第二列</td>
 	</tr>
 </table>
-
 ```
 
 ## 使用

@@ -1,5 +1,5 @@
 ---
-language: erlang
+language: Erlang
 contributors:
     - ["Giovanni Cappellotto", "http://www.focustheweb.com/"]
 filename: learnerlang-kr.erl
@@ -321,7 +321,6 @@ fib:test()
 % ```
 % rebar eunit
 % ```
-
 ```
 
 ## 참조

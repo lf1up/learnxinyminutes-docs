@@ -1,5 +1,5 @@
 ---
-language: erlang
+language: Erlang
 lang: zh-cn
 contributors:
     - ["Giovanni Cappellotto", "http://www.focustheweb.com/"]
@@ -248,7 +248,6 @@ CaculateAera ! {circle, 2}. % 12.56000000000000049738
 % shell也是一个进程(process), 你可以使用`self`获取当前 pid
 
 self(). % <0.41.0>
-
 ```
 
 ## References

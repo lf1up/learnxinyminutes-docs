@@ -1,5 +1,5 @@
 ---
-language: kotlin
+language: Kotlin
 filename: LearnKotlin-ru.kt
 lang: ru-ru
 contributors:
@@ -365,7 +365,6 @@ fun useObject() {
     ObjectExample.hello()
     val someRef: Any = ObjectExample // we use objects name just as is
 }
-
 ```
 
 ### Дальнейшее чтение:

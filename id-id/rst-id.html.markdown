@@ -1,6 +1,6 @@
 ---
-language: restructured text (RST)
-filename: rst-id.html
+language: reStructuredText (RST)
+filename: rst-id.rst
 contributors:
     - ["DamienVGN", "https://github.com/martin-damien"]
     - ["Andre Polykanine", "https://github.com/Oire"]
@@ -14,7 +14,6 @@ dokumentasi (dan menjadi bagian dari Docutils).
 
 File-file RST adalah sebuah file-file teks simpel dengan sintaks yang ringan
 (dibandingkan dengan HTML).
-
 
 ## Pemasangan
 
@@ -33,12 +32,11 @@ Jika sistem anda sudah mempunyai `pip`, anda bisa menggunakannya juga:
 $ pip install docutils
 ```
 
-
 ## Sintaks file
 
 Sebuah contoh sederhana dari sintaks file:
 
-```
+```rst
 .. Baris yang dimulai dengan dua titik adalah perintah spesial. Tetapi jika
 perintah tidak ditemukan, maka baris tersebut akan dianggap sebagai komentar
 
@@ -88,17 +86,15 @@ ini :)
 
 Ada berbagai macam cara untuk membuat tautan:
 
-- Dengan menambahkan garis bawah setelah sebuah huruf : Github_ dan dengan
+- Dengan menambahkan garis bawah setelah sebuah huruf : GitHub_ dan dengan
 menambahkan URL target setelah teks (cara ini mempunyai kelebihan dengan tidak
 memasukkan URL yang tidak penting ke dalam teks yang bisa dibaca).
 - Dengan mengetik URL lengkap yang dapat dipahami : https://github.com (akan
 otomatis diubah menjadi sebuah link)
-- Dengan membuat link seperti di Markdown: `Github <https://github.com/>`_ .
+- Dengan membuat link seperti di Markdown: `GitHub <https://github.com/>`_ .
 
-.. _Github https://github.com/
-
+.. _GitHub https://github.com/
 ```
-
 
 ## Bagaimana Cara Menggunakannya
 
@@ -115,7 +111,6 @@ Tetapi ada beberapa aplikasi kompleks yang menggunakan format RST:
 - [Pelican](http://blog.getpelican.com/), Generator web statik
 - [Sphinx](http://sphinx-doc.org/), Generator dokumnetasi
 - dan masih banyak lainnya
-
 
 ## Bacaan
 

@@ -1,5 +1,5 @@
 ---
-language: java
+language: Java
 filename: LearnJava-ru.java
 contributors:
     - ["Jake Prather", "http://github.com/JakeHP"]
@@ -487,7 +487,6 @@ public class ExampleClass extends ExampleClassParent implements InterfaceOne, In
 
     }
 }
-
 ```
 
 ## Почитать еще

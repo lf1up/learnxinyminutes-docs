@@ -1,6 +1,6 @@
 ---
-language: html
-filename: html-ca.md
+language: HTML
+filename: html-ca.txt
 contributors:
     - ["Christophe THOMAS", "https://github.com/WinChris"]
 translators:
@@ -160,7 +160,6 @@ article tracta principalment la sintaxi de l'HTML i alguns consells útils.
 		<td>Segona fila, segona columna</td>
 	</tr>
 </table>
-
 ```
 
 ## Ús

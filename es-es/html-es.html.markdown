@@ -1,6 +1,6 @@
 ---
-language: html
-filename: learnhtml-es.html
+language: HTML
+filename: learnhtml-es.txt
 contributors:
     - ["Christophe THOMAS", "https://github.com/WinChris"]
 translators:
@@ -108,7 +108,6 @@ Este artículo está centrado principalmente en la sintaxis HTML y algunos tips 
 		<td>Segunda fila, segunda columna</td>
 	</tr>
 </table>
-
 ```
 
 ## Uso

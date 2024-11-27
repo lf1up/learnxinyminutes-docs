@@ -1,5 +1,5 @@
 ---
-language: v
+language: V
 filename: vlang.v
 contributors:
     - ["Maou Shimazu", "https://github.com/Maou-Shimazu"]
@@ -218,8 +218,8 @@ fn main() {
 		}
 	}
 }
-
 ```
+
 ## Further reading
 
 There are more complex concepts to be learnt in V which are available at the

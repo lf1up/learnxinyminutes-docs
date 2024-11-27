@@ -1,5 +1,5 @@
 ---
-language: self
+language: Self
 contributors:
     - ["Russell Allen", "http://github.com/russellallen"]
 filename: learnself.self
@@ -113,6 +113,7 @@ Multiple expressions are separated by a period. ^ returns immediately.
 ```
 
 Blocks are performed by sending them the message 'value' and inherit (delegate to) their contexts:
+
 ```
 "returns 0"
 [|x|

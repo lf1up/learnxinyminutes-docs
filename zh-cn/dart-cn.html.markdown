@@ -1,5 +1,5 @@
 ---
-language: dart
+language: Dart
 lang: zh-cn
 filename: learndart-cn.dart
 contributors:
@@ -509,7 +509,6 @@ main() {
     example27, example28, example29, example30
     ].forEach((ef) => ef());
 }
-
 ```
 
 ## 延伸阅读

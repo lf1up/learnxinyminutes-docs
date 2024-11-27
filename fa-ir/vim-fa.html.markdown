@@ -1,6 +1,6 @@
 ---
 category: tool
-tool: vim
+tool: Vim
 contributors:
     - ["RadhikaG", "https://github.com/RadhikaG"]
 translators:
@@ -29,6 +29,7 @@ filename: LearnVim-fa.txt
 ```
 vim <filename>   # Open <filename> in vim
 ```
+
 <p dir="rtl">
 باز کردن help docs های `<topic>` اگر وجود داشته باشد
 </p>
@@ -410,7 +411,7 @@ vimrc. فایلی‌ست که استفاده می‌شود برای کانفیگ
 این‌جا یک نمونه‌ فایل vimrc. آورده شده:
 </p>
 
-```
+```vim
 " Example ~/.vimrc
 " 2015.10
 

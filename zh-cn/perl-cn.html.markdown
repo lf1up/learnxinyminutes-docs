@@ -1,7 +1,6 @@
 ---
-name: perl
 category: language
-language: perl
+language: Perl
 filename: learnperl-cn.pl
 contributors:
     - ["Korjavin Ivan", "http://github.com/korjavin"]
@@ -134,13 +133,11 @@ sub logger {
 # 现在可以像内置函数一样调用子程序：
 
 logger("We have a logger subroutine!");
-
-
 ```
 
 #### 使用Perl模块
 
-Perl模块提供一系列特性来帮助你避免重新发明轮子，CPAN是下载模块的好地方( http://www.cpan.org/ )。Perl发行版本身也包含很多流行的模块。
+Perl模块提供一系列特性来帮助你避免重新发明轮子，[CPAN](http://www.cpan.org/)是下载模块的好地方。Perl发行版本身也包含很多流行的模块。
 
 perlfaq有很多常见问题和相应回答，也经常有对优秀CPAN模块的推荐介绍。
 

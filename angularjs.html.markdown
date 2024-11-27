@@ -1,9 +1,9 @@
 ---
-category: tool
-tool: AngularJS
+category: framework
+framework: AngularJS
 contributors:
     - ["Walter Cordero", "http://waltercordero.com"]
-filename: learnangular.html
+filename: learnangular.txt
 ---
 
 ## AngularJS Tutorial.

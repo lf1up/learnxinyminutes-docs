@@ -1,6 +1,6 @@
 ---
-language: json
-filename: json-gr.html.markdown
+language: JSON
+filename: json-gr.json
 contributors:
   - ["Anna Harren", "https://github.com/iirelu"]
   - ["Marco Scannadinari", "https://github.com/marcoms"]

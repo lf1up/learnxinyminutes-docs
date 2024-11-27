@@ -1,5 +1,5 @@
 ---
-language: yaml
+language: YAML
 filename: learnyaml-fr.yaml
 contributors:
   - ["Andrei Curelaru", "http://www.infinidad.fr"]
@@ -152,7 +152,6 @@ set2:
     item1: null
     item2: null
     item3: null
-
 ```
 
 Quelques références et outils :

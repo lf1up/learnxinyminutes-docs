@@ -1,5 +1,5 @@
 ---
-language: restructured text (RST)
+language: reStructuredText (RST)
 contributors:
     - ["DamienVGN", "https://github.com/martin-damien"]
     - ["Andre Polykanine", "https://github.com/Oire"]
@@ -32,7 +32,7 @@ $ pip install docutils
 
 A simple example of the file syntax:
 
-```
+```rst
 .. Lines starting with two dots are special commands. But if no command can be found, the line is considered as a comment.
 
 =========================================================
@@ -84,12 +84,11 @@ More complex tables can be done easily (merged columns and/or rows) but I sugges
 
 There are multiple ways to make links:
 
-- By adding an underscore after a word : Github_ and by adding the target URL after the text (this way has the advantage of not inserting unnecessary URLs in the visible text).
+- By adding an underscore after a word : GitHub_ and by adding the target URL after the text (this way has the advantage of not inserting unnecessary URLs in the visible text).
 - By typing a full comprehensible URL : https://github.com/ (will be automatically converted to a link).
-- By making a more Markdown-like link: `Github <https://github.com/>`_ .
+- By making a more Markdown-like link: `GitHub <https://github.com/>`_ .
 
-.. _Github: https://github.com/
-
+.. _GitHub: https://github.com/
 ```
 
 

@@ -1,5 +1,5 @@
 ---
-language: css
+language: CSS
 contributors:
     - ["Mohammad Valipour", "https://github.com/mvalipour"]
     - ["Marco Scannadinari", "https://github.com/marcoms"]
@@ -220,9 +220,11 @@ p { vlastnost: hodnota !important; }
 ```
 
 a tento element
+
 ```xml
 <p style='/*F*/ vlastnost:hodnota;' trida='trida1 trida2' attr='hodnota' />
 ```
+
 Priorita stylu je následující. Pamatujte, priorita pro každou **vlastnost**, ne pro celý blok.
 
 * `E` má nejvyšší prioritu kvůli slůvku `!important`. Je doporučováno se úplně vyhnout jeho použití.

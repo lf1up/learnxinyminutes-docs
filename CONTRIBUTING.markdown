@@ -34,7 +34,7 @@ review them more effectively and/or individually.
 * **Use UTF-8**
    * For translations (or EN articles with non-ASCII characters) please ensure
      your file is UTF-8 encoded.
-   * Try to leave out the byte-order-mark at the start of the file (in Vim, use
+   * Leave out the byte-order-mark (BOM) at the start of the file (in Vim, use
      `:set nobomb`).
    * You can check if the file contains a BOM on Linux/Unix systems by running
     `file language.html.markdown`  You will see this if it uses a BOM:
@@ -58,7 +58,7 @@ Other fields:
   *tool* or *Algorithms & Data Structures*. Defaults to *language* if omitted.
 * **filename**: The filename for this article's code. It will be fetched, mashed
   together, and made downloadable.
-   * For non-English articles, *filename* should   have a language-specific
+   * For non-English articles, *filename* should have a language-specific
      suffix.
 * **lang**: For translations, the human language this article is in. For
   categorization, mostly.
@@ -67,7 +67,7 @@ Here's an example header for an Esperanto translation of Ruby:
 
 ```yaml
 *--
-language: ruby
+language: Ruby
 filename: learnruby-epo.ruby
 contributors:
     - ["Doktor Esperanto", "http://example.com/"]
@@ -76,7 +76,12 @@ lang: ep-ep
 *--
 ```
 
-### Should I add myself as a Contributor?
+### Syntax highlighter
+
+[Pygments](https://pygments.org/languages/) is used for syntax highlighting through
+[pygments.rb](https://github.com/pygments/pygments.rb).
+
+### Should I add myself as a contributor?
 
 If you want to add yourself to contributors, keep in mind that contributors get
 equal billing, and the first contributor usually wrote the whole article. Please
@@ -85,27 +90,26 @@ addition or not.
 
 ## Building the site locally
 
-You can build the site locally to test your changes. Follow the steps below.
+Install Ruby. On macOS this can be done with [Homebrew](https://brew.sh/).
 
-* Install Ruby language runtime and RubyGems. See
-  [here](https://middlemanapp.com/basics/install/)
-  for more details.
-* Clone or zip download the
-  [learnxinyminutes-site](https://github.com/adambard/learnxinyminutes-site)
-  repository.
-   * `git clone https://github.com/adambard/learnxinyminutes-site`
-* Install Middleman and other required dependencies using Bundler.
-   * `cd learnxinyminutes-site/`
-   * `bundle install`
-* Get the source in place
-   * Copy the contents of your clone of the fork of learnxinyminutes-docs repo
-     into the `source/docs` folder. There shouldn't be a `learnxinyminutes-docs`
-     folder inside the `docs` folder, it should just contain all the repo
-     contents.
-   * Checkout your fork of the learnxinyminutes-docs repo as `source/docs`.
-      * `cd source/docs/`
-      * `git clone https://github.com/YOUR-USERNAME/learnxinyminutes-docs ./source/docs/`
-* Build the site or run a development server to test your changes (NOTE: run
-  these commands at `learnxinyminutes-site/`).
-   * Build - `bundle exec middleman build`
-   * Dev server - `bundle exec middleman --force-polling --verbose`
+```sh
+brew install ruby
+# Install Ruby package manager
+gem install bundler
+```
+
+Then clone two repos, install dependencies and run.
+
+```sh
+# Clone website
+git clone https://github.com/adambard/learnxinyminutes-site
+# Clone docs (this repo) nested in website
+git clone https://github.com/<YOUR-USERNAME>/learnxinyminutes-docs ./learnxinyminutes-site/source/docs/
+
+# Install dependencies
+cd learnxinyminutes-site
+bundle install
+
+# Run
+bundle exec middleman serve
+```

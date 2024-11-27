@@ -1,6 +1,6 @@
 ---
 category: tool
-tool: awk
+tool: AWK
 filename: learnawk-fr.awk
 contributors:
      - ["Marshall Mason", "http://github.com/marshallmason"]
@@ -391,7 +391,6 @@ END {
     if (nlines)
         print "L'age moyen pour le prénom " name " est " sum / nlines;
 }
-
 ```
 
 Pour plus d'informations :

@@ -1,7 +1,6 @@
 ---
-name: java
 category: language
-language: java
+language: Java
 lang: zh-cn
 filename: LearnJava-zh.java
 contributors:
@@ -381,7 +380,6 @@ class PennyFarthing extends Bicycle {
     }
 
 }
-
 ```
 
 ## 更多阅读

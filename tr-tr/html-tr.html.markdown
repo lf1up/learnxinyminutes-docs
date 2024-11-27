@@ -1,5 +1,5 @@
 ---
-language: html
+language: HTML
 filename: learnhtml-tr.txt
 contributors:
     - ["Christophe THOMAS", "https://github.com/WinChris"]
@@ -142,7 +142,6 @@ Kaynak, bir URL veya bilgisayarınızdaki bir dosyanın yolu olabilir.
 		<td>ikinci satırın, ikinci hücresi (sutunu)</td>
 	</tr>
 </table>
-
 ```
 
 ## Kullanım

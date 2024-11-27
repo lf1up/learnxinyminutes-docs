@@ -1,6 +1,6 @@
 ---
-language: html
-filename: learnhtml-gr.html
+language: HTML
+filename: learnhtml-gr.txt
 contributors:
     - ["Dimitri Kokkonis", "https://github.com/kokkonisd"]
 lang: el-gr
@@ -177,7 +177,6 @@ HTML και κάποιες χρήσιμες συμβουλές σχετικά μ
         <td>Δεύτερη γραμμή, δεύτερη στήλη</td>
 	</tr>
 </table>
-
 ```
 
 ## Χρήση

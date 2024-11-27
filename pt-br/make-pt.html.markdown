@@ -1,6 +1,6 @@
 ---
 category: tool
-tool: make
+tool: Make
 contributors:
     - ["Robert Steed", "https://github.com/robochat"]
     - ["Stephan Fuhrmann", "https://github.com/sfuhrm"]
@@ -16,7 +16,6 @@ Um Makefile define um gráfico de regras para criar um alvo (ou alvos). Sua fina
 Existem muitas variedades de make na existência, no entanto, este artigo pressupõe que estamos usando o GNU make, que é o padrão no Linux.
 
 ```make
-
 # Comentários podem ser escritos assim.
 
 # O arquivo deve ser nomeado Makefile e então pode ser executado como `make <alvo>`.

@@ -1,5 +1,5 @@
 ---
-language: xml
+language: XML
 filename: learnxml-es.xml
 contributors:
   - ["João Farias", "https://github.com/JoaoGFarias"]
@@ -62,8 +62,6 @@ sólo la guarda.
   
 <!-- Debajo, un elemento con dos atributos. -->
 <archivo tipo="gif" id="4293">computer.gif</archivo>
-
-
 ```
 
 * Documentos con buen formato x Validación
@@ -78,7 +76,6 @@ válida.
 Con esta herramienta puedes validar datos XML fuera de la aplicación
 
 ```xml
-
 <!-- Debajo puedes encontrar una versión simplificada del documento 
   tiendaDeLibros en adición a la definición DTD.-->
 

@@ -1,10 +1,10 @@
 ---
-language: dart
+language: Dart
 contributors:
     - ["Joao Pedrosa", "https://github.com/jpedrosa/"]
 translators:
     - ["Jorge Antonio Atempa", "http://www.twitter.com/atempa09"]
-filename: dart-es.md
+filename: dart-es.dart
 lang: es-es
 ---
 
@@ -518,7 +518,6 @@ main() {
     example27, example28, example29, example30
     ].forEach((ef) => ef());
 }
-
 ```
 
 ## Lecturas adicionales

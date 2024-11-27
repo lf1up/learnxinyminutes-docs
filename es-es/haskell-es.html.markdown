@@ -4,7 +4,7 @@ contributors:
     - ["Adit Bhargava", "http://adit.io"]
 translators:
     - ["Jorge Antonio Atempa", "http://www.twitter.com/atempa09"]
-filename: haskell-es.md
+filename: haskell-es.hs
 lang: es-es
 ---
 
@@ -415,7 +415,6 @@ foo :: Integer
 ¿Cual es tu nombre?
 Amigo
 Hola, Amigo
-
 ```
 
 Existe mucho más de Haskell, incluyendo clases de tipos y mónadas. Estas son

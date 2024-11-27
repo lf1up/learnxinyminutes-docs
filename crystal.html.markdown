@@ -1,5 +1,5 @@
 ---
-language: crystal
+language: Crystal
 filename: learncrystal.cr
 contributors:
     - ["Vitalii Elenhaupt", "http://veelenga.com"]
@@ -9,7 +9,6 @@ contributors:
 ---
 
 ```crystal
-
 # This is a comment
 
 # Everything is an object
@@ -556,7 +555,6 @@ rescue ex4 # catch any kind of exception
 end
 
 ex #=> "ex2"
-
 ```
 
 ## Additional resources
